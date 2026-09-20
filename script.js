@@ -149,7 +149,7 @@ if (contactForm) {
         try {
 
             const response = await fetch(
-                "http://localhost:5000/api/contact",
+                "https://mathews-portfolio.onrender.com/api/contact",
                 {
                     method: "POST",
 
